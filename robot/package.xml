@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>robot</name>
+  <version>0.0.1</version>
+  <description>4-Wheeled Autonomous Rover with Sensors</description>
+  <maintainer email="your@email.com">Your Name</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>joint_state_publisher</depend>
+  <depend>gazebo_ros</depend>
+  <depend>xacro</depend>
+  <depend>teleop_twist_keyboard</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
